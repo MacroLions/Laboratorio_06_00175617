@@ -5,5 +5,5 @@ function encontrarNumero(numero,array) {
             contador=contador+1;
         }        
     }
-    return contador;
+    console.log("El numero se repite: "+contador+" veces")
 }
