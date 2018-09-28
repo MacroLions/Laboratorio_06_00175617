@@ -5,7 +5,8 @@ function numeroAleatorio() {
     }
     a=prompt("Adivina el número: ")
     for (let index = 0; index < arreglo.length; index++) {
-        const element = array[index];
-        
+        if(a==arreglo[index]){
+            console.log("Acertaste!")
+        }
     }
 }
